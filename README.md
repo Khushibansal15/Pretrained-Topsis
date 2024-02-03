@@ -4,7 +4,7 @@ This project aims to evaluate the performance of various language models in gene
 
 ## Project Structure
 
-- **Evaluation Script:** The main script (`evaluate_models.py`) contains the code for evaluating the language models using BLEU, ROUGE, and TOPSIS analysis.
+- **Evaluation Script:** The main script (`102103624_pretrained-Topsis.py`) contains the code for evaluating the language models using BLEU, ROUGE, and TOPSIS analysis.
 - **Results:** The results of the evaluation are stored in CSV files (`results.csv` and `topsis.csv`).
 - **Graphs:** Bar graphs comparing TOPSIS scores and individual metrics (BLEU, ROUGE-1, ROUGE-2, ROUGE-L, and Response Length) are saved as PNG files.
 
@@ -16,7 +16,7 @@ pip install torch transformers nltk rouge-score pandas matplotlib numpy
 
 2. Run the evaluation script:
 
-python evaluate_models.py
+python 102103624_pretrained-Topsis.py
 
 This script evaluates language models, performs TOPSIS analysis, and generates comparison graphs.
 
@@ -26,7 +26,7 @@ The results of the evaluation are saved in `results.csv` and `topsis.csv`. Bar g
 
 ## File Descriptions
 
-- `evaluate_models.py`: Main script for evaluating language models and performing analysis.
+- `102103624_pretrained-Topsis.py`: Main script for evaluating language models and performing analysis.
 - `results.csv`: CSV file containing detailed evaluation results.
 - `topsis.csv`: CSV file containing TOPSIS analysis results.
 - `topsis_BarGraph.png`: Bar graph visualizing TOPSIS scores.
