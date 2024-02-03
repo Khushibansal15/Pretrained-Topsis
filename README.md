@@ -29,7 +29,7 @@ The results of the evaluation are saved in `results.csv` and `topsis.csv`. Bar g
 - `102103624_pretrained-Topsis.py`: Main script for evaluating language models and performing analysis.
 - `results.csv`: CSV file containing detailed evaluation results.
 - `topsis.csv`: CSV file containing TOPSIS analysis results.
-- `topsis_BarGraph.png`: Bar graph visualizing TOPSIS scores.
+- `Topsis_Ranking.png`: Bar graph visualizing TOPSIS scores.
 - `ROUGE-1_comparison.png`, `ROUGE-2_comparison.png`, `ROUGE-L_comparison.png`, `Response Length_comparison.png`, `Response Length.png`: Bar graphs comparing individual metrics.
 
 ## Dependencies
